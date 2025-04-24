@@ -1,7 +1,7 @@
 - Arthur de Oliveira e Silva
 - Kaue Castro Teixeira
 
-Documentação Prototipo01
+## Documentação Prototipo01
 
 ## 1. Column
 
@@ -37,7 +37,7 @@ Column(
   ],
 )
 
-2. Row
+## 2. Row
 Pra que serve?
 Alinha os elementos lado a lado, horizontalmente.
 
@@ -80,7 +80,7 @@ Row(
   ],
 )
 
-3. Wrap
+## 3. Wrap
 Pra que serve?
 Coloca os elementos lado a lado até não caberem mais na largura, aí joga eles pra linha de baixo.
 
@@ -105,7 +105,7 @@ Wrap(
   ],
 )
 
-4. Expanded
+## 4. Expanded
 Pra que serve?
 Faz um elemento ocupar todo o espaço que sobrar dentro de um Row, Column ou Flex.
 
@@ -134,7 +134,7 @@ Row(
   ],
 )
 
-5. Stack
+## 5. Stack
 Pra que serve?
 Coloca os elementos um em cima do outro.
 
@@ -161,7 +161,7 @@ Stack(
   ],
 )
 
-6. ListView.builder
+## 6. ListView.builder
 Pra que serve?
 Mostra uma lista de coisas que dá pra rolar. A diferença é que ele só cria os itens da lista quando eles estão quase aparecendo na tela, o que economiza memória pra listas grandes.
 
@@ -187,9 +187,9 @@ Expanded(
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Documentação Prototipo02
+## Documentação Prototipo02
 
-1. Column
+## 1. Column
 Pra que serve?
 Organiza os elementos da tela de cima para baixo, como se fosse uma pilha vertical.
 
@@ -233,7 +233,7 @@ Column(
 )
 Elementos Utilizados: Icon, SizedBox, Row, Align, Container, Padding, Text, Table.
 
-2. Row
+## 2. Row
 Pra que serve?
 Alinha os elementos lado a lado, horizontalmente.
 
@@ -269,7 +269,7 @@ Row(
 )
 Elementos Utilizados: Expanded, TextField, SizedBox, InputDecoration, OutlineInputBorder.
 
-3. Align / Center
+## 3. Align / Center
 Pra que serve?
 Align permite alinhar um widget dentro de seu pai de diversas formas. Center é um jeito fácil de centralizar um widget.
 
@@ -289,7 +289,7 @@ Align(
 )
 Elementos Utilizados: ElevatedButton, Text. No AppBar, a propriedade centerTitle: true é usada.
 
-4. Container com BoxDecoration
+## 4. Container com BoxDecoration
 Pra que serve?
 Container é um widget genérico para agrupar outros widgets e aplicar estilos. BoxDecoration permite definir a aparência visual do container (cor de fundo, borda, etc.).
 
@@ -312,7 +312,7 @@ Container(
 )
 Elementos Utilizados: Column, Text, BoxDecoration, Colors, BorderRadius.
 
-5. Flexible e Expanded
+## 5. Flexible e Expanded
 Pra que serve?
 Tornam os widgets filhos de um Row, Column ou Flex flexíveis, permitindo que eles ocupem o espaço disponível de maneira proporcional. Expanded é um Flexible com um fator de flex padrão de 1, ocupando todo o espaço restante igualmente entre outros Expanded na mesma linha/coluna.
 
@@ -340,7 +340,7 @@ Row(
 )
 Elementos Utilizados: TextField, SizedBox, InputDecoration, OutlineInputBorder.
 
-6. Table
+## 6. Table
 Pra que serve?
 Organiza os widgets em um formato de tabela, com linhas e colunas.
 
